@@ -4,8 +4,8 @@
 
 | No. | Repositorio                                                                       | Puerto | URL                    | Lenguaje    | Framework     | 
 |:---:|-----------------------------------------------------------------------------------|:------:|------------------------|:-----------:|:-------------:|
-| 1   | [Front End](https://github.com/gdayramirezdev/test-api.git)                       | 3001   | http://localhost:3001  | Typescript  | ReactJS(vite) |
-| 2   | [Back End](https://github.com/gdayramirezdev/test-app.git)                        | 5173   | http://localhost:5173  | Typescript  | Express       |
+| 1   | [Back End](https://github.com/gdayramirezdev/test-api.git)                        | 3001   | http://localhost:3001  | Typescript  | ReactJS(vite) |
+| 2   | [Front End](https://github.com/gdayramirezdev/test-app.git)                       | 5173   | http://localhost:5173  | Typescript  | Express       |
 
 #### Instrucciones para cargar base de datos
 
