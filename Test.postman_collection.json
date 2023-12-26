@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "508ec95f-1bd6-4aa0-9b57-a51496e8f1dd",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28978448"
+	},
+	"item": [
+		{
+			"name": "Get All BLogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api?title=Te&autor=Jose&content=Ex",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Te"
+						},
+						{
+							"key": "autor",
+							"value": "Jose"
+						},
+						{
+							"key": "content",
+							"value": "Ex"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Blog",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Este es un ejemplo de titulo\",\n    \"autor\": \"Unknown\",\n    \"puiblishAt\": \"2022-04-22T10:34:53.000Z\",\n    \"content\": \"De la abundancia 3 este es un ejemplo que tiene mas de 30 chars y que es posible ocultar y mostrar su contenido desde la inferfaz\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get One Blog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
