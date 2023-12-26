@@ -16,7 +16,7 @@ create database test;
 ```
 
 ```sql
-use database test;
+use test;
 ```
 
 Crear tabla blogs
