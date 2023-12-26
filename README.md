@@ -7,6 +7,17 @@
 | 1   | [Back End](https://github.com/gdayramirezdev/test-api.git)                        | 3001   | http://localhost:3001  | Typescript  | ReactJS(vite) |
 | 2   | [Front End](https://github.com/gdayramirezdev/test-app.git)                       | 5173   | http://localhost:5173  | Typescript  | Express       |
 
+#### Agrego instrucciones para lanzar imagen de mysql en docker (si es necesario)*
+```bash
+docker run --name mysql -d     -p 3306:3306     -e MYSQL_ROOT_PASSWORD=password     --restart unless-stopped     mysql:8
+```
+
+```bash
+docker exec -it mysql mysql -p
+```
+
+Ingresar contraseña del usuario en mysql: password
+
 #### Instrucciones para cargar base de datos
 
 Crear base de datos:
@@ -73,14 +84,3 @@ Ejecutar front end
 ```
 
 ir a http://localhost:5173/
-
-#### Agrego instrucciones para lanzar imagen de mysql en docker (si es necesario)*
-```bash
-docker run --name mysql -d     -p 3306:3306     -e MYSQL_ROOT_PASSWORD=password     --restart unless-stopped     mysql:8
-```
-
-```bash
-docker exec -it mysql mysql -p
-```
-
-Ingresar contraseña del usuario en mysql: password
