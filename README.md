@@ -35,9 +35,9 @@ Crear tabla blogs
 ```sql
 CREATE TABLE blogs (
   id MEDIUMINT NOT NULL AUTO_INCREMENT,
-  title varchar(200),
-  autor varchar(200),
-  puiblishAt DATETIME,
+  title varchar(200) NOT NULL,
+  autor varchar(200) NOT NULL,
+  puiblishAt DATETIME NOT NULL,
   content TEXT NOT NULL,
   PRIMARY KEY (id)
 );
