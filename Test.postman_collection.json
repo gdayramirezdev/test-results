@@ -46,7 +46,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"title\": \"Este es un ejemplo de titulo\",\n    \"autor\": \"Unknown\",\n    \"puiblishAt\": \"2022-04-22T10:34:53.000Z\",\n    \"content\": \"De la abundancia 3 este es un ejemplo que tiene mas de 30 chars y que es posible ocultar y mostrar su contenido desde la inferfaz\"\n}",
+					"raw": "{\n    \"title\": \"Este es un ejemplo de titulo\",\n    \"autor\": \"Unknown\",\n    \"publishAt\": \"2022-04-22T10:34:53.000Z\",\n    \"content\": \"De la abundancia 3 este es un ejemplo que tiene mas de 30 chars y que es posible ocultar y mostrar su contenido desde la inferfaz\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
