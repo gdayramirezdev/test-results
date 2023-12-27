@@ -46,8 +46,8 @@ CREATE TABLE blogs (
 Insertar un registros de prueba
 
 ```sql
-INSERT INTO blogs (title, autor, puiblishAt, content) VALUES ('Titulo de prueba', 'Autor de prueba', '2022-04-23 10:34:53.4', 'Contenido restringido al publico');
-INSERT INTO blogs (title, autor, puiblishAt, content) VALUES ('Foo', 'Bar', '2022-04-22 10:34:53.4', 'Este es un ejemplo que tiene mas de 30 chars y que es posible ocultar y mostrar su contenido desde la inferfaz, solo para probar la funcionalidad');
+INSERT INTO blogs (title, autor, publishAt, content) VALUES ('Titulo de prueba', 'Autor de prueba', '2022-04-23 10:34:53.4', 'Contenido restringido al publico');
+INSERT INTO blogs (title, autor, publishAt, content) VALUES ('Foo', 'Bar', '2022-04-22 10:34:53.4', 'Este es un ejemplo que tiene mas de 30 chars y que es posible ocultar y mostrar su contenido desde la inferfaz, solo para probar la funcionalidad');
 ```
 
 #### Instrucciones para lanzar API
